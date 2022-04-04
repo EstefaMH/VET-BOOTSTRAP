@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --blue-color: #00b2b1;
+    --purple-color: rgb(117,41,149);
+}
+
+
+
+.registrar{
+    color: var(--purple-color);
+    border: 2px solid var(--purple-color);
+}
+
+.ingresar{
+    background-color: var(--blue-color);
+    border: none;
+    color: black;
+}
+.item{
+    text-decoration: none;
+    color:white;
+    
+}
+
+nav{
+   padding: 15px; 
+   background-color: var(--purple-color);
+}
+
+.index-nav a{
+    margin: 5px;
+}
+
+.promocion{
+    background-color: var(--purple-color);
+}
+
+.index-info{
+    background-image: url("../img/img/fondo.jpg");
+}
+
+.titulo{
+    color: var(--purple-color);
+    text-shadow: rgb(39, 37, 37) 1px 2px 5px;
+}
+
+.footer-fondo{
+    background-image: url("../img/img/fondo.jpg");
+}
+
+.footer-container{
+    background-color: rgba(117, 41, 149, 0.481);
+}
+
+.nombre{
+    color: var(--purple-color);
+}
+
+
+.login-container{
+    background-color: gray;
+}
+
+
+.font-weight-bold{
+    font-weight: 600;
+}
+
+.btn-b{
+    background-color: var(--blue-color);
+}
+
+.btn-p{
+    background-color: var(--purple-color);
+}
