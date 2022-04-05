@@ -32,6 +32,12 @@ nav{
    background-color: var(--purple-color);
 }
 
+.icon{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .index-nav a{
     margin: 5px;
 }
@@ -46,7 +52,7 @@ nav{
 
 .titulo{
     color: var(--purple-color);
-    text-shadow: rgb(39, 37, 37) 1px 2px 5px;
+    text-shadow: rgb(58, 58, 58) 1px 1px 5px;
 }
 
 .footer-fondo{
@@ -78,3 +84,18 @@ nav{
 .btn-p{
     background-color: var(--purple-color);
 }
+
+form{
+    background-color: rgba(159, 158, 158, 0.464);
+}
+
+
+thead{
+    background-color: var(--purple-color);
+    color: white;
+}
+
+.tab{
+    width: 70%;
+}
+
